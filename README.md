@@ -2,8 +2,8 @@
   
 - 🌱 I’m currently learning Python and Visual Basic
 - 💞️ I’m looking to collaborate on tools for beginners and non-programmers
-- 📖 I'm reading *The Doors of Eden* by Adrian Tchaikovsky
-- 📬 You can reach me on Discord @kt1891
+
+![roadmap.sh](https://roadmap.sh/card/tall/6722b75631d65c235dc18635?variant=dark)
 
 <!---
 knqti/knqti is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
