@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning Python and Visual Basic
 - 💞️ I’m looking to collaborate on tools for beginners and non-programmers
 
-![road-card_tech-writing_small](https://github.com/user-attachments/assets/f9f0d8a2-3110-4341-9a95-0cbb3ca2e840)
+![road-card_tech-writing_small](https://github.com/user-attachments/assets/e4701c16-59a5-4e89-a1e0-bc17e6b7e7fa)
 
 
 <!---
