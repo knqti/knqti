@@ -19,8 +19,10 @@ jobs:
       - name: Update URL in README.md
         run: |
           TIMESTAMP=$(node -p "Date.now()")
-          sed -i "s|https://roadmap.sh/card/tall/6722b75631d65c235dc18635?variant=dark|https://roadmap.sh/card/tall/6722b75631d65c235dc18635?variant=dark&timestamp=${TIMESTAMP}|" README.md
-
+          BASE_URL="https://roadmap.sh/card/tall/6722b75631d65c235dc18635?variant=dark"
+          NEW_URL="${BASE_URL}$timestamp=${TIMESTAMP}"
+          sed -i "s|${BASE_URL}.*|${UPDATED_URL}|" README.md
+          
       - name: Commit changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
