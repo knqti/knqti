@@ -1,23 +1,29 @@
-name: Add timestamp to roadmap.sh badge
+name: Update roadmap.sh badge URL with timestamp
 
 on:
   push:
   schedule:
-      - cron: '0 0 * * *'
+    - cron: '0 0 * * *'
 
 jobs:
-  append-query:
+  update-readme:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Append query parameter
+      - name: Update URL in README.md
         run: |
-          # Replace YOUR_URL with the actual URL you're working with
-          URL="https://roadmap.sh/card/tall/6722b75631d65c235dc18635?variant=dark"
+          # Set variables
           TIMESTAMP=$(node -p "Date.now()")
-          UPDATED_URL="${URL}?timestamp=${TIMESTAMP}"
+          # Read and update README.md with new timestamp in the URL
+          sed -i "s|https://roadmap.sh/card/tall/6722b75631d65c235dc18635?variant=dark.*|https://roadmap.sh/card/tall/6722b75631d65c235dc18635?variant=dark&timestamp=${TIMESTAMP}|" README.md
 
-          echo "Updated URL: $UPDATED_URL"
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "Update roadmap.sh badge with new timestamp"
+          git push
