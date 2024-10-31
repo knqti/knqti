@@ -19,7 +19,7 @@ jobs:
       - name: Update URL in README.md
         run: |
           TIMESTAMP=$(node -p "Date.now()")
-          sed -i "s|https://roadmap.sh/card/tall/6722b75631d65c235dc18635?variant=dark.*|https://roadmap.sh/card/tall/6722b75631d65c235dc18635?variant=dark&timestamp=${TIMESTAMP}|" README.md
+          sed -i "s|https://roadmap.sh/card/tall/6722b75631d65c235dc18635?variant=dark|https://roadmap.sh/card/tall/6722b75631d65c235dc18635?variant=dark&timestamp=${TIMESTAMP}|" README.md
 
       - name: Commit changes
         run: |
