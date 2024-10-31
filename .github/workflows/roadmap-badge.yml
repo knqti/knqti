@@ -1,9 +1,12 @@
-name: Update roadmap.sh badge URL with timestamp
+name: Update roadmap.sh badge with timestamp
 
 on:
   push:
   schedule:
     - cron: '0 0 * * *'
+
+permissions:
+  contents: write  # Grants write permissions for pushing changes
 
 jobs:
   update-readme:
@@ -15,9 +18,7 @@ jobs:
 
       - name: Update URL in README.md
         run: |
-          # Set variables
           TIMESTAMP=$(node -p "Date.now()")
-          # Read and update README.md with new timestamp in the URL
           sed -i "s|https://roadmap.sh/card/tall/6722b75631d65c235dc18635?variant=dark.*|https://roadmap.sh/card/tall/6722b75631d65c235dc18635?variant=dark&timestamp=${TIMESTAMP}|" README.md
 
       - name: Commit changes
