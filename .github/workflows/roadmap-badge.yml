@@ -1,0 +1,23 @@
+name: Add timestamp to roadmap.sh badge
+
+on:
+  push:
+  schedule:
+      - cron: '0 0 * * *'
+
+jobs:
+  append-query:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Append query parameter
+        run: |
+          # Replace YOUR_URL with the actual URL you're working with
+          URL="https://roadmap.sh/card/tall/6722b75631d65c235dc18635?variant=dark"
+          TIMESTAMP=$(node -p "Date.now()")
+          UPDATED_URL="${URL}?timestamp=${TIMESTAMP}"
+
+          echo "Updated URL: $UPDATED_URL"
