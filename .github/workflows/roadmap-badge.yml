@@ -20,8 +20,8 @@ jobs:
         run: |
           TIMESTAMP=$(node -p "Date.now()")
           BASE_URL="https://roadmap.sh/card/tall/6722b75631d65c235dc18635?variant=dark"
-          NEW_URL="${BASE_URL}$timestamp=${TIMESTAMP}"
-          sed -i "s|${BASE_URL}.*|${UPDATED_URL}|" README.md
+          NEW_URL="${BASE_URL}&timestamp=${TIMESTAMP}"
+          sed -i "s|${BASE_URL}.*|${NEW_URL}|" README.md
           
       - name: Commit changes
         run: |
