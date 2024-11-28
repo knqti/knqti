@@ -1,6 +1,6 @@
 # <p align="center">👋 Hi, I’m @knqti</p>
   
-- 🌱 I’m currently learning Python and Visual Basic
+- 🌱 I’m currently learning Python, Visual Basic, and Technical Writing.
 - 💞️ I’m looking to collaborate on tools for beginners and non-programmers
 
 ![road-card_tech-writing_small](https://github.com/user-attachments/assets/e4701c16-59a5-4e89-a1e0-bc17e6b7e7fa)
