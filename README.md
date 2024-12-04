@@ -1,6 +1,6 @@
 # 👋 Hi, I’m @knqti
   
-- 📝 ![My Technical Writing samples.](https://knqti.github.io/samples)
+- 📝 [My Technical Writing samples.](https://knqti.github.io/samples/)
 - 💞️ Let's collaborate on open-source documentation.
 
 ## Languages
