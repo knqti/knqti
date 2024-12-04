@@ -1,9 +1,26 @@
-# <p align="center">👋 Hi, I’m @knqti</p>
+# 👋 Hi, I’m @knqti
   
-- 🌱 I’m currently learning Python, Visual Basic, and Technical Writing.
-- 💞️ I’m looking to collaborate on tools for beginners and non-programmers
+- 📝 ![My Technical Writing samples.](https://knqti.github.io/samples)
+- 💞️ Let's collaborate on open-source documentation.
 
-![road-card_tech-writing_small](https://github.com/user-attachments/assets/e4701c16-59a5-4e89-a1e0-bc17e6b7e7fa)
+## Languages
+
+![My Languages](https://skillicons.dev/icons?i=py,bash,md)
+
+## Tools
+
+![My Tools](https://skillicons.dev/icons?i=git,github,vscode)
+
+## Operating Systems
+
+![My OS](https://skillicons.dev/icons?i=linux,mint,windows)
+
+## GitHub Stats
+
+![My GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=knqti&hide_rank=true&hide=stars&show=prs_merged_percentage&theme=cobalt)
+
+![](https://github-trophies.vercel.app/?username=knqti)
+
 
 
 <!---
