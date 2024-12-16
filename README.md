@@ -9,11 +9,7 @@
 
 ## Tools
 
-![My Tools](https://skillicons.dev/icons?i=git,github,vscode)
-
-## Operating Systems
-
-![My OS](https://skillicons.dev/icons?i=linux,mint,windows)
+![My Tools](https://skillicons.dev/icons?i=git,github,vscode,linux,mint,windows)
 
 ## GitHub Stats
 
