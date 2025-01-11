@@ -1,7 +1,6 @@
 # 👋 Hi, I’m @knqti
   
-- 📝 [My Technical Writing samples.](https://knqti.github.io/samples/)
-- 💞️ Let's collaborate on open-source documentation.
+Let's collaborate on open-source projects!
 
 ## Languages
 
@@ -14,9 +13,6 @@
 ## GitHub Stats
 
 ![My GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=knqti&hide_rank=true&hide=stars&show=prs_merged_percentage&theme=cobalt)
-
-![](https://github-trophies.vercel.app/?username=knqti)
-
 
 
 <!---
